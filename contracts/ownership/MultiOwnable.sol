@@ -3,12 +3,12 @@ pragma solidity ^0.4.18;
 import "./Ownable.sol";
 import "./MultiSigWallet.sol";
 
+
 /**
  * @title MultiOwnable
  * @dev The MultiOwnable contract uses a multisignature wallet for multiple user based authorization controls. 
  * It provides authorization controls for a single owner an multiple owners of a multi-sig wallet. 
  */
-
 contract MultiOwnable is Ownable {
 
     /**
